@@ -2,7 +2,7 @@
 
 ## How it works
 
-The program operates by utilizing Windows API calls, specicically `NTQueryVirtualMemmory`, to analyze the curreent process's memory:
+The program operates by utilizing Windows API calls, specifically `NTQueryVirtualMemory`, to analyze the curreent process's memory:
 1. **Whitelisting**:
    - Establish a set of allowed memory addresses
    - Use `WhitelistBase` to initialize this set based on existing memory regions
