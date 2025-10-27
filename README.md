@@ -7,6 +7,8 @@ anticheat memory whitelist
 
 ## How it works
 
+(Dont actually use this write ur own thats actually optimized)
+
 The program operates by utilizing Windows API calls, specifically `NTQueryVirtualMemory`, to analyze the current process's memory:
 1. **Whitelisting**:
    - Establish a set of allowed memory addresses
