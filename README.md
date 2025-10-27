@@ -6,6 +6,7 @@ The program operates by utilizing Windows API calls, specifically `NTQueryVirtua
 1. **Whitelisting**:
    - Establish a set of allowed memory addresses
    - Use `WhitelistBase` to initialize this set based on existing memory regions
+   - Use `VerifyWhitelist` to go to validation
 2. **Memory Querying**:
    - Retrieve information about memory regions, including their state and protection attributes
    - Store relevant information
