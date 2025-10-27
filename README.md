@@ -1,3 +1,8 @@
+Keywords cuz i couldnt find anything like this on github<br/>
+roblox like memory region whitelist,
+memory region whitelist,
+anticheat memory whitelist
+
 # Memory Whitelist
 
 ## How it works
