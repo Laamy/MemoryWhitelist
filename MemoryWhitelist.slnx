@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MemoryWhitelist/MemoryWhitelist.vcxproj" Id="6e37a581-a564-45f7-b99a-17cf3e2be451" />
+</Solution>
