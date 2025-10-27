@@ -1,1 +1,15 @@
 # Memory Whitelist
+
+## How it works
+
+The program operates by utilizing Windows API calls, specicically `NTQueryVirtualMemmory`, to analyze the curreent process's memory:
+1. **Whitelisting**:
+   - Establish a set of allowed memory addresses
+   - Use `WhitelistBase` to initialize this set based on existing memory regions
+2. **Memory Querying**:
+   - Retrieve information about memory regions, including their state and protection attributes
+   - Store relevant information
+3. **Validation Loop**:
+   - This can be put anywhere as long as it runs often (for example in mc it could be on the tick functions that run 20 times a second or setupandrender)
+   - Monitors memory regions to ensure compliance with the whitelist
+   - Modify permissions for regions that are not whitelisted back to read/write (causing them to crash the program)
